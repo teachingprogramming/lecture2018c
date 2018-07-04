@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int func(int d) {
+void func(int d) {
     printf("dの値は%d\n", d);
     printf("dのアドレスは%p\n", &d);
 }
